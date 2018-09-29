@@ -51,4 +51,4 @@ if [ ! -f "/opt/b3log/solo/WEB-INF/classes/local.properties" ]; then
     rm -rf /opt/b3log/tmp
 fi
 
-java -cp WEB-INF/lib/*:WEB-INF/classes org.b3log.solo.Starter
+java -cp WEB-INF/lib/*:WEB-INF/classes Starter

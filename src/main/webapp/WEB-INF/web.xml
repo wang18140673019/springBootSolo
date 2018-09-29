@@ -26,7 +26,7 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <listener>
-        <listener-class>org.b3log.solo.SoloServletListener</listener-class>
+        <listener-class>org.wang.solo.SoloServletListener</listener-class>
     </listener>
 
     <filter>
@@ -48,7 +48,7 @@
 
     <filter>
         <filter-name>PermalinkFilter</filter-name>
-        <filter-class>org.b3log.solo.filter.PermalinkFilter</filter-class>
+        <filter-class>org.wang.solo.filter.PermalinkFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>PermalinkFilter</filter-name>
@@ -56,7 +56,7 @@
     </filter-mapping>
     <filter>
         <filter-name>InitCheckFilter</filter-name>
-        <filter-class>org.b3log.solo.filter.InitCheckFilter</filter-class>
+        <filter-class>org.wang.solo.filter.InitCheckFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>InitCheckFilter</filter-name>
